@@ -1,0 +1,105 @@
+body{
+   height: 100vh;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+}
+
+header,nav,aside,main{
+   margin: 5px;   
+   padding: 5px;
+   text-align: center;
+}
+
+header{
+   margin:10px;
+   border-radius: 25px;
+   background-color: #0a2345  ;
+   color: white;
+   max-height: 4em;
+   display: flex;
+   justify-content: space-around;
+}
+
+h1{
+   max-height: 2em;
+   margin: auto;
+}
+
+p{
+   text-align:center;
+   font-weight:bold;
+}
+
+
+.flexcarousel{
+   display: flex;
+   margin: 5px;
+}
+
+.carousel{
+	flex:3;
+}
+
+.flexbody{
+   display: flex;
+   flex-direction: row;
+}
+
+nav{
+   margin: 0;
+   background-color:white;
+   flex: 1;
+}
+
+.main{
+   background-color:white;
+   flex: 4;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-content: space-around;
+  
+}
+
+aside{
+   margin: 0;
+   background-color:white;
+   flex: 1;
+}
+
+.square{
+   margin:1em;
+   max-width: 18em;
+}
+
+.image{
+	height:90%;
+}
+
+.retour{
+	padding:3px 0 3px 0;
+	font:bold 13px Arial;
+	background-color: lightsteelblue;
+	border-radius:25px;
+	width:50px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+
+.fond{
+   background-color: lightsteelblue;
+
+}
+
+.main1{
+   background-color:lightsteelblue;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+   align-content: space-around;
+  
+}
